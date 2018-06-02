@@ -1,0 +1,52 @@
+Ant wars
+
+Naprogramujte jendoduchou hru války několika mravenčích klanů. Mravenci se rodí v mraveništích a lze jim zadat cíl - jiné mraveniště.
+
+Na cizí mraveniště mravenci útočí, vlastní opevňují.
+
+Váš engine:
+
+ze souboru nahraje mapu s lokacemi mraveništ a překážek
+implementuje triviální interakci mravenec vs. mravenec (např. jeden zabije jednoho)
+implementuje jednoduchou škálovanou AI řídící organizaci klanů mravenců
+umožňuje ukládat a načítat rozehrané hry
+Engine může fungovat real-time hra, či tahová hra.
+
+Jak může vypadat mapa?
+
+" " - prázdné místa pro pohyb mravenců
+A a B (resp Z,Y,X a W pro druhého hráče) označují mraveniště s daným počtem mravenců uvnitř
+a,b (resp z,y,x,w) označují jednotlivé mravence
+zadané cesty lze označit (v ukázce A->B, B->Y, Y->B, W->Y, X->Y, Z->Y, např. z mraveniště Z vyrazilo 5 mravenců a dalších 6 ještě vyjde po zadané cestě
+ 
+##################################################
+#                                                #
+#                                                #
+#     █████           █████                      #
+#     █A13█aaaaaaaaaaa█B20█                      #
+#     █████           █████                      #
+#                          b                     #
+#                          b                     #
+#                           b                    #
+#########################   b              █████ #
+#                            b             █W03█ # 
+#                            y             █████ #
+#                             y         -ww      #
+#                             y     <---         #
+#       █████                  █████       █████ #
+#       █Z06█zzzzz------------>█Y30█<-xx--x█X01█ #
+#       █████                  █████       █████ #
+#                                                #
+##################################################                      
+Kde lze využít polymorfismus? (doporučené)
+
+Parametry útočníků: znak, barva, písmeno, ...
+Políčka mapy: volno, věž, mravenec...
+Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
+Ukázky:
+
+Obecné informace, požadavky, ...
+http://www.auraluxgame.com/
+http://www.superhry.cz/games/2072/
+http://store.steampowered.com/app/357930/
+Mail: D. Bernhauer

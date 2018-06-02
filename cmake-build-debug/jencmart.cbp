@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jencmart"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jencmart">
+				<Option output="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/jencmart" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jencmart/ChromeDownloads/jencmart/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 jencmart"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jencmart/fast">
+				<Option output="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/jencmart" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jencmart/ChromeDownloads/jencmart/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 jencmart/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jencmart/ChromeDownloads/jencmart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/abstractPlayer.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/abstractPlayer.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/ant.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/ant.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/antHill.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/antHill.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/botPlayer.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/botPlayer.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/command.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/command.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/common.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/empty.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/exceptions.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/game.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/game.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/gameWrapper.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/gameWrapper.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/humanPlayer.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/humanPlayer.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/inOut.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/inOut.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/main.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/map.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/map.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/mapElement.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/menu.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/menu.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/path.cpp">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/path.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/src/wall.h">
+			<Option target="jencmart"/>
+		</Unit>
+		<Unit filename="/home/jencmart/ChromeDownloads/jencmart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
