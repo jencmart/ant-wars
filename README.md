@@ -75,7 +75,7 @@ make run
 #### OTHER INFO:
    Game is paused by 'p'
    
-   In menu you can usually go back by 'q'
+   In menu you can go back by 'q'
 
 
 ![scalability](https://raw.githubusercontent.com/jencmart/ant-wars/master/data/screenshots/ant3.gif)
