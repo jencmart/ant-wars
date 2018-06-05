@@ -34,20 +34,40 @@ make run
 ![From main menu you can play new game / load game](https://raw.githubusercontent.com/jencmart/ant-wars/master/data/screenshots/ant0.gif)
 
 ### How to play
-   YOUR antHills are GREEN ones. 
-   Select one of them by LMB(Left mouse button)
-   Then select other anthill ( your || enemy || neutral )
+  
+   Round starts by selecting your (green) anthills.
+   
+   Select one of them by LMB(Left mouse button).
+   
+   Then select an enemy's anthill to attack it or your anthill to support it.
 
+   Next it is opponent's turn to do the same.
+   
+   Then the simulation of the turn takes place.
+   
+   Finally round ends and next one starts.
 
+   You win when you'll capture all of the enemy's anthills.
+   
+   You loose when you'll lost all of your anthills.
+   
+   Ants in anthills are regenerating durign turn simulation.
+   
+   Ants'll kill each other on the road, when they are on the same path between two anthills during simulation.
+   
 #### ANT HILL TYPES:
    GREEN ANTHILL            - yours
-   WHITE ANTHILL            - neutral, must be conquered
+   
+   WHITE ANTHILL            - neutral, must be conquered, but they don't attack
+   
    RED   ANTHHILL           - ultraBogo AI enemy ants
+   
    BLUE  && PURPLE ANTHILL  - bogo AI
 
 
 #### OTHER INFO:
    Game is paused by 'p'
+   
    In menu you can usually go back by 'q'
 
 
