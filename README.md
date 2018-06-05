@@ -18,7 +18,7 @@ Game is similiar to Tentacle Wars.
 ### Installing
 
 ```
-git clone https://github.com/MartanJe/skiingAreaIS.git
+git clone https://github.com/jencmart/ant-wars.git
 ```
 
 ```
