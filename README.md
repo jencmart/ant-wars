@@ -1,11 +1,14 @@
 # ANT WARS
 
+School project.
+
+
+C++ terminal game running on ncurses library.
+
+
+Game is similiar to Tentacle Wars.
 
 ![Antwars in action](https://raw.githubusercontent.com/jencmart/ant-wars/master/data/screenshots/ant2.gif)
-
-School project.
-C++ terminal game running on ncurses library.
-Game is similiar to Tentacle Wars.
 
 ## Getting Started
 
