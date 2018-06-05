@@ -203,7 +203,30 @@ void Game::PrintHud(AbstractPlayer *player) const
    if (player)
    {
       const char *name = (player->GetRealName()).c_str();
-      attron(COLOR_PAIR( (short) player->GetID()));
+
+
+   int color = player->GetID();
+   if(color >= 'h' && color != 'n' &&  color != 'p' )
+   {
+      std::list<int> myList{'e', 'f', 'g', 'h', 'p'};
+      std::list<int>::iterator rand = myList.begin();
+      std::advance(rand, std::rand() % myList.size());
+      color = (*rand);
+   }
+
+   if(color == 'n')
+      attron(COLOR_PAIR(1));
+   else if(color == 'p')
+      attron(COLOR_PAIR(6));
+   else if(color == 'e')
+      attron(COLOR_PAIR(7));
+   else if(color == 'f')
+      attron(COLOR_PAIR(11));
+   else if(color == 'g')
+      attron(COLOR_PAIR(13));
+   else
+      attron(COLOR_PAIR(5));
+
 
       mvprintw(3, m_map.GetWidth() + 12, name);
       attron(COLOR_PAIR(1));

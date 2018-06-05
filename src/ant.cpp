@@ -24,17 +24,29 @@ void Ant::Move()
 
 void Ant::Display(InputOutput *) const
 {
-   attron(COLOR_PAIR((short)m_ownerID));
 
-
-   if(m_ownerID >= 'h' &&  m_ownerID != 'p' )
+      int color = m_ownerID;
+   if(color >= 'h' && color != 'n' &&  color != 'p' )
    {
       std::list<int> myList{'e', 'f', 'g', 'h', 'p'};
       std::list<int>::iterator rand = myList.begin();
-      ///get randIterators
       std::advance(rand, std::rand() % myList.size());
-      attron(COLOR_PAIR((short)(*rand)));
+      color = (*rand);
    }
+
+   if(color == 'n')
+      attron(COLOR_PAIR(2));
+   else if(color == 'p')
+      attron(COLOR_PAIR(3));
+   else if(color == 'e')
+      attron(COLOR_PAIR(8));
+   else if(color == 'f')
+      attron(COLOR_PAIR(9));
+   else if(color == 'g')
+      attron(COLOR_PAIR(10));
+   else
+      attron(COLOR_PAIR(14));
+
 
 
    mvprintw(m_origin.m_row, m_origin.m_col, "O");

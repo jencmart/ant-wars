@@ -29,20 +29,33 @@ public:
       curs_set(0);
       mousemask(ALL_MOUSE_EVENTS | REPORT_MOUSE_POSITION, NULL); //mouse
       start_color();
-      init_pair((short)'n', COLOR_WHITE, COLOR_WHITE); // NEUTRAL HILL
-      init_pair( (short)'p' , COLOR_GREEN, COLOR_GREEN);  //GREEN HILL
-      init_pair((short)'e', COLOR_RED, COLOR_RED);    // RED HILL
-      init_pair((short)'f', COLOR_BLUE, COLOR_BLUE);  // BLUE HILL
-      init_pair((short)'g', COLOR_MAGENTA, COLOR_MAGENTA);  // MAGENTA HILL
-      init_pair((short)'h', COLOR_CYAN, COLOR_CYAN);  // MAGENTA HILL
+      init_pair(2,  COLOR_BLACK, COLOR_WHITE); // NEUTRAL HILL  'n'
+      init_pair(3,  COLOR_BLACK, COLOR_GREEN);  //GREEN HILL 'p'
+      init_pair(8,  COLOR_BLACK, COLOR_RED);    // RED HILL 'e'
+      init_pair(9,  COLOR_BLACK, COLOR_BLUE);  // BLUE HILL 'f'
+      init_pair(10, COLOR_BLACK, COLOR_MAGENTA);  // MAGENTA HILL 'g'
+      init_pair(14, COLOR_BLACK, COLOR_CYAN);  // CYAN HILL  'h'
+
+
       init_pair(1, COLOR_WHITE, COLOR_BLACK);        //DEFAULT
+
+
+
+
       init_pair(4, COLOR_BLACK, COLOR_YELLOW); //WALL
+
+
       init_pair(5, COLOR_CYAN, COLOR_BLACK);    //PATH COLOR
       init_pair(6, COLOR_GREEN, COLOR_BLACK);   //GREEN TEXT
+
+
       init_pair(7, COLOR_RED, COLOR_BLACK);     //RED TEXT
       init_pair(11, COLOR_BLUE, COLOR_BLACK);   //BLUE TEXT
       init_pair(12, COLOR_YELLOW, COLOR_BLACK); //YELLOW TEXT
+
       init_pair(13, COLOR_MAGENTA, COLOR_BLACK);   //MAGENTA TEXT
+
+
       attron(A_BOLD);
       box(m_window, 0, 0);
    };
