@@ -46,10 +46,14 @@ make run
    Then the simulation of the turn takes place.
    
    Finally round ends and next one starts.
+ 
+   ---------------
 
-   You win when you'll capture all of the enemy's anthills.
+   You'll win when you capture all of the enemy's anthills.
    
-   You loose when you'll lost all of your anthills.
+   You'll loose when you lost all of your anthills.
+   
+   ---------------
    
    Ants in anthills are regenerating durign turn simulation.
    
