@@ -22,7 +22,9 @@ Game is similiar to Tentacle Wars.
 ```
 git clone https://github.com/jencmart/ant-wars.git
 ```
-
+```
+cd ant-wars
+```
 ```
 make compile
 ```
