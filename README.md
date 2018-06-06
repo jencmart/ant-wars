@@ -8,14 +8,13 @@ C++ terminal game running on ncurses library.
 
 Game is similiar to Tentacle Wars.
 
-![Antwars in action](https://raw.githubusercontent.com/jencmart/ant-wars/master/data/screenshots/ant2.gif)
-
 ## Getting Started
 
 ### Prerequisites
 *   gcc
 *   ncurses
 *   make
+*   doxygen
 
 
 ### Installing
@@ -49,8 +48,8 @@ make run
    Then the simulation of the turn takes place.
    
    Finally round ends and next one starts.
- 
-   ---------------
+   
+   ![Antwars in action](https://raw.githubusercontent.com/jencmart/ant-wars/master/data/screenshots/ant2.gif)
 
    You'll win when you capture all of the enemy's anthills.
    
